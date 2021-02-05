@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+a:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+    transition: 0.3s;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    border-radius: 40px;
+    background-color: #2500f9;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #242f51;
+    margin-bottom: 25px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*************************
+    HEADER SECTION CSS
+*************************/
+header {
+    padding: 80px 0 0 0;
+}
+header ul li {
+    margin-right: 14px;
+}
+header ul li a {
+    color: #000000 !important;
+}
+header button {
+    margin-left: 25px;
+}
+
+/*************************
+    BANNER SECTION CSS
+*************************/
+.banner {
+    width: 100%;
+    background: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    padding-top: 30px;
+}
+.banner .banner-left {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner .banner-left span{
+    display: inline-block;
+    background-color: #e2eaed;
+    padding: 0 40px 0 40px;
+    border-radius: 30px;
+    position: relative;
+}
+.banner .banner-left .editiors-img {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width:9%;
+    height: 100%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #feaa25;
+}
+.banner .banner-left .editiors p{
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 0;
+    margin-bottom: 0 !important;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 500;
+}
+.banner-left h1{
+    color: #242f51;
+}
+.banner .banner-left p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #616368;
+    font-weight: 500;
+}
+.banner .banner-left a{
+    color: #2500f9;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.banner .banner-right {
+    text-align: center;
+}
+
+
+/*************************
+    TRUSTED COMPANY SECTION CSS
+*************************/
+.company{
+    padding: 120px 0;
+}
+.company p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+.owl-carousel .owl-item img {
+    width: auto !important;
+    margin: auto;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    display: none;
+}
+
+
+/*************************
+    APP FEATURE SECTION CSS
+*************************/
+.app-feature-section {
+    width: 100%;
+    padding: 50px 0;
+}
+.app-feature-section .app-feature-left {
+    position: relative;
+    left: -8%;
+}
+.app-feature-section .app-feature-right {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.app-feature-section .app-feature-right p {
+    color: #616368;
+    font-weight: 500;
+}
+.features {
+    margin-top: 80px;
+}
+.feature1,.feature2,.feature3 {
+    margin-bottom: 35px;
+    align-items: center;
+}
+.feature-logo, .jackpot-logo, .choose-logo, .ultimate-logo{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature1 .feature-logo,
+.jackpot1 .jackpot-logo{
+    background-color: #ffecef;
+}
+.feature2 .feature-logo,
+.jackpot2 .jackpot-logo{    
+    background-color: #f4f4ff;
+}
+.feature3 .feature-logo,
+.jackpot3 .jackpot-logo{
+    background-color: #e4ffee;
+}
+.feature1 .feature-text{
+    color: #f55767;
+    margin-left: 20px;
+}
+.feature2 .feature-text{    
+    color: #2563ff;
+    margin-left: 20px;
+}
+.feature3 .feature-text{
+    color: #63aa7c;
+    margin-left: 20px;
+}
+
+
+/*************************
+    SMART JACKPOT SECTION CSS
+*************************/
+.jackpot-section{
+    width: 100%;
+}
+.jackpot-text{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+.jackpot-text h2 {
+    padding: 0 80px 0 60px;
+    border-right: 1px solid #b9b9b8;
+    color: #242f51;
+}
+.jackpot-text p {
+    padding: 0 120px 0 60px;
+    color: #616368;
+}
+.jackpot1, .jackpot2, .jackpot3 {
+    padding: 0 70px;
+}
+.jackpot1 h4{
+    color: #f55767;
+    margin: 30px 0 15px 0;
+}
+.jackpot2 h4{    
+    color: #2563ff;
+    margin: 30px 0 15px 0;
+}
+.jackpot3 h4{
+    color: #63aa7c;
+    margin: 30px 0 15px 0;
+}
+.jackpot-details p{
+    color: #9c9da0;
+}
+
+
+/*************************
+    DESIGNED SECTION CSS
+*************************/
+.designed-section {
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.designed-section .designed-left {
+    position: relative;
+    left: -8%;
+}
+.designed-section .designed-right {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.designed-section .designed-right p {
+    color: #616368;
+    margin: 40px 0;
+}
+
+
+/*************************
+    CHOOSE SECTION CSS
+*************************/
+.choose-section{
+    padding: 100px 0;
+    text-align: center;
+}
+.choose-section .choose-text h3 {
+    width: 35%;
+    margin: auto;
+}
+.choose-section .choose-text p {
+    width: 50%;
+    margin: 20px auto 60px auto;
+}
+.choose-section h4{
+    color: #242f51;
+    margin: 30px 0 15px 0;
+}
+.choose-section p{
+    color: #616368;
+    padding-bottom: 60px;
+}
+.choose1, .choose2, .choose3, .choose4, .choose5, .choose6{
+    padding: 0 60px;
+}
+.choose-logo{
+    margin: auto;
+}
+.choose1 .choose-logo {
+    background-color: #ffecef;
+}
+.choose2 .choose-logo {
+    background-color: #eaf9ff;
+}
+.choose3 .choose-logo {
+    background-color: #fff6d3;
+}
+.choose4 .choose-logo {
+    background-color: #e4ffee;
+}
+.choose5 .choose-logo {
+    background-color: #f4f4ff;
+}
+.choose6 .choose-logo {
+    background-color: #fdeee4;
+}
+
+
+/*************************
+    ULTIMATE FEATURES SECTION CSS
+*************************/
+.ultimate-section{
+    padding: 100px 0;
+    background: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.ultimate-section h3 {
+    padding-right: 20px;
+}
+.ultimate-section p {
+    color: #616368;
+    margin-bottom: 60px;
+}
+.ultimate-section h4{
+    color: #242f51;
+    margin: 30px 0 15px 0;
+}
+.ultimate1, .ultimate2, .ultimate3, .ultimate4{
+    padding: 0 130px 0 12px;
+}
+.ultimate1 .ultimate-logo {
+    background-color: #ffecef;
+}
+.ultimate3 .ultimate-logo {
+    background-color: #fff6d3;
+}
+.ultimate2 .ultimate-logo {
+    background-color: #e4ffee;
+}
+.ultimate4 .ultimate-logo {
+    background-color: #f4f4ff;
+}
+
+
+/*************************
+    PRICING SECTION CSS
+*************************/
+.pricing-section{
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 2px solid #f4f4f4;
+}
+.pricing-section p {
+    color: #616368;
+    margin-bottom: 40px;
+}
+.pricing-section .pricing-button{
+    border: 3px solid #ebebeb;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px;
+    margin: 40px 0;
+}
+.pricing-section .pricing-button .inactive {
+    background-color: transparent;
+    color: #97989c;
+    outline: none;
+}
+.pricing-section h1 {
+    color: #242f51;
+}
+.pricing-section h1 span {
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.price-box p {
+    color: #999ca5;
+}
+.price-box ul{
+    padding: 0;
+    margin: 0;
+}
+.price-box ul li {
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.price1 .card{
+    border: none;
+    box-shadow: 20px 55px 20px #eef1f3, -20px 55px 20px #eef1f3;
+}
+.price-box .card-header {
+    border-bottom: none !important;
+    background:linear-gradient(#ffffff ,#f4f7f9) !important;
+    border-radius: 10px 10px 0 0;
+}
+.price-box .card {
+    border-radius: 10px;
+}
+.price1, .price2{
+    padding: 0 20px;
+}
+.price2 button{
+    margin-bottom: 20px;
+}
+.price2 a{
+    color: #5b3ffa;
+    font-weight: 600;
+}
+
+
+/*************************
+    TESTIMONIAL SECTION CSS
+*************************/
+.testimonial-section{
+    padding: 100px 0;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.testimonial-section .testimonial-head {
+    width: 80%;
+}
+.testimonial-section h2 {
+    color: #242f51;
+    margin-bottom: 20px;
+}
+.testimonial-section p {
+    color: #999ca5;
+}
+.testimonial-section i{
+    color: #ffcc00;
+}
+
+.testimonial-section #carousel2 h4{
+    color: #242f51;
+}
+.testimonial-section #carousel2 img{
+    display: inline-block;
+    margin: 0 30px 0 10px;
+}
+.testimonial-section #carousel2 .client-details{
+    display: flex;
+    align-items: center;
+}
+.testimonial-section #carousel2 .client-names{
+    display: inline-block;
+    width: 45%;
+}
+.testimonial-section #carousel2 .name{
+    font-size: 18px;
+    color: #313b5b;
+    font-weight: 700;
+}
+.testimonial-section #carousel2 .position{
+    font-size: 18px;
+    color: #999ca5;
+    font-weight: 600;
+}
+.testimonial-section .owl-theme .owl-nav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+.testimonial-section .owl-theme .owl-nav button{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #eff3f8;
+    outline: none;
+    font-size: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+}
+.testimonial-section .owl-theme .owl-nav button span {
+    display: block;
+    line-height: 35px;
+}
+.testimonial-section .owl-nav::before {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #cccccc;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*************************
+    FAQ SECTION CSS
+*************************/
+.faq-section {
+    padding: 100px 0;
+    border-bottom: 2px solid #f4f4f4;
+}
+.faq-section .faq-text{
+    text-align: center;
+}
+.faq-section .faq-text h2{
+    color: #242f51;
+}
+.faq-section .faq-text p{
+    width: 75%;
+    margin: 30px auto 50px auto;
+    color: #999ca5;
+}
+.faq-section .faq-accordion h2{
+    background-color: #f5f7fa;
+}
+.faq-section .faq-accordion button{
+    border: none;
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 50px;
+    background-color: #f5f7fa;
+}
+.faq-section .faq-accordion button:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: #f5f7fa;
+}
+.faq-section .faq-accordion button:hover{
+    transform: scale(1);
+    transition: 0s;
+}
+.faq-section .faq-accordion .accordion-button::after{
+    content: "+";
+    background-image: none;
+    font-size: 40px;
+    line-height: 32px;
+    height: 30px;
+    width: 2rem;
+    font-weight: 300;
+}
+.faq-section .faq-accordion .accordion-button:not(.collapsed)::after{
+    content: "-";
+}
+.faq-section .accordion-item:last-of-type .accordion-collapse{
+    border: none;
+    background-color: #f5f7fa;
+}
+.faq-section .accordion-body {
+    padding: 20px 50px 50px 50px;
+    color: #999ca5;
+    border: none;
+    background-color: #f5f7fa;
+}
+.faq-section .accordion-item{
+    margin-bottom: 20px;
+}
+
+/*************************
+    FAQ SECTION CSS
+*************************/
+.download-section{
+    padding: 120px 0;
+    background: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.download-section h2 {
+    color: #242f51;
+}
+.download-section p {
+    color: #616368;
+    width: 90%;
+    margin: 30px 0 50px 0;
+}
+.download-section .download-buttons button{
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.download-section .download-buttons button:hover{
+    transform: scale(1);
+    transition: 0s;
+    background-color: #ffffff;
+    color: #000000;
+}
+.download-section .download-buttons button:focus{
+    outline: none;
+}
+.download-section .download-buttons button i{
+    font-size: 40px;
+}
+.download-section .download-buttons .download-text{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+}
+.download-section .download-buttons .download-text span{
+    font-size: 14px;
+}
+
+
+/*************************
+    FOOTER SECTION CSS
+*************************/
+footer{
+    background-color: #09142e;
+    padding: 120px 0;
+    text-align: center;
+}
+footer ul {
+    margin: 40px 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+footer ul li a{
+    color: #ffffff;
+}
+footer ul li a:hover{
+    color: #ffffff;
+}
+footer i {
+    color: #3d465a;
+    font-size: 28px;
+    margin: 0 20px;
+}
+footer i:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+footer p {
+    color: #3d465a;
+    font-size: 18px;
+    margin-top: 60px;
+}
