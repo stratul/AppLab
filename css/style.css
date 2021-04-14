@@ -189,10 +189,10 @@ header button {
     font-weight: 500;
 }
 .features {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .feature1,.feature2,.feature3 {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     align-items: center;
 }
 .feature-logo, .jackpot-logo, .choose-logo, .ultimate-logo{
@@ -217,15 +217,12 @@ header button {
 }
 .feature1 .feature-text{
     color: #f55767;
-    margin-left: 20px;
 }
 .feature2 .feature-text{    
     color: #2563ff;
-    margin-left: 20px;
 }
 .feature3 .feature-text{
     color: #63aa7c;
-    margin-left: 20px;
 }
 
 
@@ -296,16 +293,16 @@ header button {
     CHOOSE SECTION CSS
 *************************/
 .choose-section{
-    padding: 100px 0;
+    padding: 60px 0 0 0;
     text-align: center;
 }
 .choose-section .choose-text h3 {
-    width: 35%;
+    width: 45%;
     margin: auto;
 }
 .choose-section .choose-text p {
-    width: 50%;
-    margin: 20px auto 60px auto;
+    width: 60%;
+    margin: 20px auto 40px auto;
 }
 .choose-section h4{
     color: #242f51;

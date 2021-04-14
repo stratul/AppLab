@@ -1,0 +1,355 @@
+
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+
+    .jackpot-text h2 {
+        padding: 0 30px 0 20px;
+    }
+    .jackpot-text p {
+        padding: 0 60px 0 30px;
+    }
+    .jackpot1, .jackpot2, .jackpot3 {
+        padding: 0 40px;
+    }
+
+
+    .choose-section .choose-text h3 {
+        width: 50%;
+        margin: auto;
+    }
+    .choose-section .choose-text p {
+        width: 70%;
+        margin: 20px auto 30px auto;
+    }
+    .choose1, .choose2, .choose3, .choose4, .choose5, .choose6{
+        padding: 0 30px;
+    }
+
+
+    .ultimate-section{
+        padding: 60px 0;
+        background: url(../img/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+    .ultimate-section h3 {
+        padding-right: 0px;
+        margin-bottom: 5px;
+    }
+    .ultimate-section p {
+        margin-bottom: 40px;
+    }
+    .ultimate-section h4{
+        color: #242f51;
+        margin: 20px 0 7px 0;
+    }
+    .ultimate1, .ultimate2, .ultimate3, .ultimate4{
+        padding: 0 40px 0 12px;
+    }
+
+
+
+}
+
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+
+
+    header {
+        padding: 40px 0 0 0;
+    }
+
+
+    .banner-left h1{
+        margin: 10px 0;
+    }
+    .banner .banner-left p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .banner .banner-left button {        
+        padding: 12px 35px;
+        font-size: 16px;
+    }
+    .banner .banner-left a{
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+
+    .company{
+        padding: 60px 0;
+    }
+
+
+    .app-feature-section .app-feature-right h3 {
+        margin-bottom: 10px;
+    }
+    .app-feature-section .app-feature-right p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .features {
+        margin-top: 15px;
+    }
+    .feature1,.feature2,.feature3 {
+        margin-bottom: 10px;
+    }
+
+
+
+    .jackpot1, .jackpot2, .jackpot3 {
+        padding: 0 20px;
+    }
+
+
+    .designed-section {
+        padding: 60px 0;
+    }
+    .designed-section .designed-right p {
+        margin: 20px 0;
+    }
+
+
+    .choose1, .choose2, .choose3, .choose4, .choose5, .choose6{
+        padding: 0 15px;
+    }
+    .choose-section h4{
+        margin: 20px 0 10px 0;
+    }
+    .choose-section p{
+        padding-bottom: 30px;
+    }
+
+
+    .ultimate-section{
+        background: none;
+    }
+    .ultimate1, .ultimate2, .ultimate3, .ultimate4{
+        padding: 0 25px 0 12px;
+    }
+    .ultimate-section h3 {
+        text-align: center;
+    }
+    .ultimate-section .col-xl-4 p {
+        text-align: center;
+        padding: 0 30px;
+    }
+
+
+    .testimonial-section{
+        padding: 60px 0;
+        background: none;
+    }
+
+
+    .download-section{
+        padding: 60px 0;
+    }
+    .download-section h2 {
+        font-size: 30px;
+    }
+    .download-section p {
+        margin: 10px 0 20px 0;
+    }
+    .download-section .download-buttons button{
+        padding: 5px 10px;
+    }
+    .download-section .download-buttons button i{
+        font-size: 25px;
+    }
+    .download-section .download-buttons .download-text span{
+        font-size: 10px;
+    }
+    .download-section .download-buttons .download-text h4{
+        font-size: 14px;
+    }
+
+
+    footer{
+        padding: 60px 0;
+    }
+    footer ul {
+        margin: 25px 0;
+    }
+    footer ul li{
+        margin: 0 10px;
+    }
+    footer p {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .banner .banner-left {
+        text-align: center;
+    }
+    .banner .banner-left a{
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+
+    .app-feature-section .app-feature-right h3 {
+        margin-bottom: 30px;
+    }
+    .app-feature-section .app-feature-right p {
+        margin-bottom: 30px;
+    }
+    .features {
+        margin-top: 35px;
+    }
+
+
+
+    .jackpot-section{
+        padding: 50px;
+    }
+    .jackpot-text{
+        margin-bottom: 0px;
+    }
+    .jackpot-text h2 {
+        padding: 0;
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .jackpot-text p {
+        padding: 0 40px;
+        text-align: center;
+    }
+    .jackpot1, .jackpot2, .jackpot3 {
+        text-align: center;
+    }
+    .jackpot1 h4, .jackpot2 h4, .jackpot3 h4{
+        margin: 10px;
+    }
+    .jackpot-logo {
+        margin: 30px auto 0 auto;
+    }
+
+
+    .designed-section .designed-right {
+        text-align: center;
+    }
+    .designed-section .designed-right h3{
+        margin-top: 50px;
+    }
+
+
+
+    .choose-section .choose-text h3 {
+        width: 70%;
+        margin: auto;
+    }
+    .choose-section .choose-text p {
+        width: 85%;
+        margin: 20px auto 0px auto;
+    }
+
+
+    
+    .ultimate-section button{
+        padding: 10px 30px;
+    }
+
+    .price1{
+        margin-bottom: 40px;
+    }
+
+    
+
+
+
+}
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .app-feature-section .app-feature-right h3 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .app-feature-section .app-feature-right p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .features {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .feature1,.feature2,.feature3 {
+        margin-bottom: 20px;
+    }
+    .feature-logo, .jackpot-logo, .choose-logo, .ultimate-logo{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .designed-section .designed-right button {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+
+    
+    .choose-section h4{
+        margin: 10px 0 6px 0;
+    }
+    .choose-section p{
+        padding: 0 40px 40px 40px;
+    }
+
+
+    .ultimate-section{
+        text-align: center;
+    }
+
+    .testimonial-section .owl-theme .owl-nav {
+        display: block;
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+    }
+
+
+
+}
